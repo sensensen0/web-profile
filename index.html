@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PT. Mustika Graha Estetika adalah pengembang properti terpercaya di Indonesia yang menghadirkan hunian bersubsidi berkualitas, nyaman, dan terjangkau dengan proses KPR mudah dan bergaransi.">
+    <meta name="keywords" content="PT Mustika Graha Estetika, perumahan bersubsidi, developer rumah subsidi, rumah murah berkualitas, properti Indonesia, hunian nyaman, KPR mudah, rumah bergaransi, perumahan Jakarta, perumahan terjangkau">
+    <meta name="author" content="PT. Mustika Graha Estetika">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PT. Mustika Graha Estetika | Hunian Nyaman dan Terjangkau">
+    <meta property="og:description" content="Developer perumahan bersubsidi dengan kualitas terbaik, proses KPR mudah, dan struktur bangunan bergaransi.">
+    <meta property="og:image" content="https://www.mustikagrahaestetika.co.id/src/img/logo-mge.png">
+    <meta property="og:url" content="https://www.mustikagrahaestetika.co.id/">
+    <meta property="og:site_name" content="PT. Mustika Graha Estetika">
+    <meta property="og:locale" content="id_ID">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PT. Mustika Graha Estetika | Hunian Nyaman, Harga Bersahabat">
+    <meta name="twitter:description" content="Perumahan bersubsidi berkualitas dengan proses KPR mudah dan bergaransi.">
+    <meta name="twitter:image" content="https://www.mustikagrahaestetika.co.id/src/img/logo-mge.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="src/img/logo-mge.png">
+    <!-- Tailwind v2 CDN (kamu sudah pakai ini) -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>body{font-family: Poppins, Arial, Helvetica, sans-serif;}</style>
+    <title>
+      Selamat Datang di Website PT. Mustika Graha Estetika
+    </title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "PT. Mustika Graha Estetika",
+      "url": "https://www.mustikagrahaestetika.co.id/",
+      "logo": "https://www.mustikagrahaestetika.co.id/src/img/logo-mge.png",
+      "sameAs": [
+        "https://www.facebook.com/ptmustikagrahaestetika",
+        "https://www.instagram.com/ptmustikagrahaestetika",
+        "https://wa.me/6282154888181"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+62-821-5488-8181",
+        "contactType": "customer service",
+        "areaServed": "ID",
+        "availableLanguage": "Indonesian"
+      }
+    }
+    </script>
+  </head>
+  <body class="m-0 p-0 antialiased">
+    <div id="app"></div>
+
+    <!-- HEADER -->
+    <header>
+      <nav class="fixed top-0 left-0 right-0 bg-white w-full drop-shadow-md z-50">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 md:px-10 py-3">
+          <!-- logo -->
+          <a href="#logo" class="logo inline-flex items-center">
+            <img src="src/img/logo-mge.png" alt="Logo PT. Mustika Graha Estetika" class="w-14 md:w-20 mr-3 object-contain">
+            <span class="font-medium text-sm md:text-base">PT. Mustika Graha Estetika</span>
+          </a>
+
+          <!-- desktop menu -->
+          <ul id="nav-desktop" class="hidden md:flex gap-6 items-center text-sm md:text-base">
+            <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+            <li><a href="#aboutUs" class="hover:text-blue-600">Tentang Kami</a></li>
+            <li><a href="#visiMisi" class="hover:text-blue-600">Visi & Misi</a></li>
+            <li><a href="#layanan" class="hover:text-blue-600">Layanan & Keunggulan</a></li>
+            <li><a href="#testimoni" class="hover:text-blue-600">Testimoni</a></li>
+            <li><a href="#contactUs" class="hover:text-blue-600">Hubungi Kami</a></li>
+          </ul>
+
+          <!-- mobile hamburger -->
+          <button id="nav-toggle" class="md:hidden p-2 rounded focus:outline-none" aria-label="Toggle navigation">
+            <i id="nav-toggle-icon" class="fas fa-bars text-xl"></i>
+          </button>
+        </div>
+
+        <!-- mobile menu (hidden by default) -->
+        <div id="nav-mobile" class="md:hidden hidden border-t bg-white">
+          <ul class="flex flex-col px-4 py-3 space-y-2 text-sm">
+            <li><a href="#home" class="block py-2">Home</a></li>
+            <li><a href="#aboutUs" class="block py-2">Tentang Kami</a></li>
+            <li><a href="#visiMisi" class="block py-2">Visi & Misi</a></li>
+            <li><a href="#layanan" class="block py-2">Layanan & Keunggulan</a></li>
+            <li><a href="#testimoni" class="block py-2">Testimoni</a></li>
+            <li><a href="#contactUs" class="block py-2">Hubungi Kami</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="relative min-h-screen flex flex-col md:flex-row items-center bg-gray-50 pt-20 md:pt-0">
+      <!-- text pembuka sebelah kiri -->
+      <div class="w-full md:w-1/2 px-6 md:px-16 py-10 md:py-0">
+        <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold text-blue-400 leading-tight py-2">Selamat datang di Web-Profile</h1>
+        <h1 class="text-2xl sm:text-3xl md:text-6xl font-bold text-blue-800 leading-tight">PT. Mustika Graha Estetika</h1>
+        <p class="text-sm sm:text-base text-gray-800 font-regular py-4 md:py-7">Hunian Nyaman, Harga Bersahabat.</p>
+      </div>
+      <!-- gambar kanan -->
+      <div class="w-full md:w-1/2 h-64 md:h-auto">
+        <img src="src/img/Screenshot 2025-10-13 114227.png" alt="rumah" class="w-full h-full object-cover">
+      </div>
+    </section>
+
+    <!-- TENTANG KAMI -->
+    <section id="aboutUs" class="relative flex flex-col md:flex-row items-center bg-blue-800 py-12 md:py-32">
+      <div class="max-w-7xl w-full md:w-1/2 mx-auto px-6 md:px-10">
+        <h2 class="inline-block bg-gray-50 text-2xl sm:text-3xl md:text-5xl font-bold text-blue-800 px-4 md:px-5 py-3 md:py-4">Tentang Kami</h2>
+        <p class="text-base sm:text-lg md:text-xl text-gray-50 py-4">
+            PT. Mustika Graha Estetika adalah perusahaan pengembang
+            properti yang berkomitmen menghadirkan perumahan bersubsidi
+            berkualitas bagi masyarakat Indonesia. Kami percaya bahwa
+            setiap keluarga berhak memiliki rumah impian yang nyaman,
+            aman, dan terjangkau. Dengan semangat tersebut, kami menghadirkan konsep
+            “Perumahan Bersubsidi, Kredit Murah, Proses Mudah, dan
+            Struktur Bergaransi.”
+        </p>
+        <p class="text-base sm:text-lg md:text-xl text-gray-50 py-4">
+            Setiap unit kami dirancang dengan kualitas konstruksi terbaik,
+            desain modern, serta lingkungan yang tertata rapi untuk
+            menunjang kehidupan yang lebih baik bagi penghuninya.
+            Didukung oleh tim profesional dan kerja sama dengan lembaga
+            pembiayaan terpercaya, PT. Mustika Graha Estetika memastikan
+            setiap proses pembelian berjalan mudah, cepat, dan transparan.
+        </p>
+        <p class="text-base sm:text-lg md:text-xl text-gray-50 py-4 mb-0">
+            Kami terus berinovasi untuk memberikan pelayanan terbaik dan
+              nilai tambah bagi para konsumen, sekaligus berkontribusi dalam
+              mendukung program pemerintah dalam penyediaan rumah layak
+              dan terjangkau bagi seluruh masyarakat.
+              Dengan PT. Mustika Graha Estetika, mewujudkan rumah impian
+              kini lebih mudah, lebih pasti, dan lebih berkualitas.
+        </p>
+      </div>
+
+      <div class="w-full md:w-1/2 h-64 md:h-full mt-6 md:mt-0">
+        <img src="src/img/Screenshot 2025-10-13 144043.png" alt="perumahan mge" class="w-full h-full object-cover">
+      </div>
+    </section>
+
+    <!-- VISI MISI -->
+    <section id="visiMisi" class="relative mx-auto min-h-screen">
+      <div>
+        <!-- atur tinggi tampilan cover supaya responsive -->
+        <img src="src/img/Screenshot 2025-10-13 144013.png" alt="perumahan MGE" class="w-full h-64 md:h-96 lg:h-full object-cover block">
+      </div>
+      <div class="absolute inset-0 bg-black opacity-60 h-full"></div>
+      <div class="absolute inset-0 flex flex-col justify-center items-center px-4 text-center">
+        <!-- Visi & Misi -->
+        <h2 class="inline-block bg-red-500 text-gray-50 text-2xl sm:text-3xl md:text-5xl font-bold px-6 py-3 md:py-5 mt-6">VISI</h2>
+        <div class="mx-2 md:mx-16 max-w-3xl">
+          <!-- Deskripsi Visi -->
+          <p class="text-base sm:text-lg md:text-2xl text-gray-50 py-4">
+            Menjadi pengembang perumahan bersubsidi terpercaya di Indonesia yang menghadirkan
+            hunian berkualitas, terjangkau, dan berkelanjutan bagi seluruh lapisan masyarakat.
+          </p>
+        </div>
+        <!-- Deskripsi Misi -->
+        <div class="my-6 w-full md:w-3/4 lg:w-2/3">
+          <h2 class="inline-block bg-red-500 text-gray-50 text-2xl sm:text-3xl md:text-5xl font-bold px-6 py-3">MISI</h2>
+          <ul class="text-sm sm:text-base md:text-lg text-gray-50 py-4 mx-4 md:mx-32 space-y-3 text-left md:text-center">
+            <li>1. Menyediakan hunian layak dan terjangkau bagi masyarakat melalui program perumahan bersubsidi dengan kualitas konstruksi yang bergaransi.</li>
+            <li>2. Memberikan kemudahan kepemilikan rumah melalui proses pembiayaan yang mudah, cepat, dan transparan.</li>
+            <li>3. Membangun lingkungan yang nyaman dan harmonis, dengan tata kawasan yang asri dan fasilitas pendukung yang memadai.</li>
+            <li>4. Menjalin kemitraan strategis dengan pemerintah, lembaga keuangan, dan masyarakat.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAYANAN -->
+    <section id="layanan" class="bg-gray-50">
+      <!-- WHY US -->
+      <div class="my-8 md:my-10 mx-6 md:mx-20 flex flex-col justify-center items-center text-center min-h-[50vh] md:min-h-screen">
+        <h1 class="text-3xl sm:text-4xl md:text-8xl text-blue-800 font-bold pb-6 md:pb-14">WHY US?</h1>
+        <p class="text-sm sm:text-base md:text-2xl text-gray-800 max-w-3xl px-2">
+          PT. Mustika Graha Estetika berkomitmen memberikan
+          pelayanan terbaik dalam setiap tahap proses kepemilikan
+          rumah. Dengan dukungan tim profesional dan sistem kerja yang
+          efisien, kami menghadirkan berbagai layanan dan keunggulan.
+        </p>
+      </div>
+
+      <!-- Deskripsi layanan -->
+      <div class="flex flex-col md:flex-row items-start bg-blue-800 w-full">
+        <div class="w-full md:w-1/2 px-6 md:px-8 py-8">
+          <div class="flex justify-start items-start">
+            <h2 class="text-blue-800 font-bold text-3xl md:text-6xl bg-gray-50 px-6 py-4 mb-6 inline-block">LAYANAN KAMI</h2>
+          </div>
+          <div class="mx-2 md:mx-6">  
+            <ul class="text-gray-50 list-decimal mx-4 md:mx-10 space-y-4">
+              <li class="font-semibold text-base md:text-xl">Pengembangan Perumahan Bersubsidi
+                <span class="block font-normal text-sm md:text-base text-gray-50">Menyediakan hunian yang berkualitas bagi masyarakat dengan harga yang terjangkau, desain yang modern, serta lingkungan yang nyaman dan tertata rapi.</span>
+              </li>
+              <li class="font-semibold text-base md:text-xl">Konsultansi dan Pendampingan Kredit (KPR)
+                <span class="block font-normal text-sm md:text-base text-gray-50">Membantu calon pembeli dalam proses pengajuan kredit kepemilikan rumah (KPR),
+                  mulai dari persiapan dokumen hingga persetujuaan pembiayaan.</span>
+              </li>
+              <li class="font-semibold text-base md:text-xl">Pembangunan dan Konstruksi Bergaransi
+                <span class="block font-normal text-sm md:text-base text-gray-50">Setiap unit dibangun dengan pengawasan ketat dan material terbaik,
+                  serta dilengkapi garansi struktur sebagai bentuk tanggung jawab kami
+                  terhadap kualitas bangunan.</span>
+              </li>
+              <li class="font-semibold text-base md:text-xl">Pelayanan Purna Jual (After Sales Services)
+                <span class="block font-normal text-sm md:text-base text-gray-50"> Kami siap memberikan dukungan dan layanan purna jual (after sales)
+                  untuk memastikan kenyamanan serta kepuasan penghuni setelah proses
+                  serah-terima rumah.</span>
+              </li>
+              <li class="font-semibold text-base md:text-xl">Kerjasama Pengembangan Kawasan
+                <span class="block font-normal text-sm md:text-base text-gray-50">MTerbuka untuk kemitraan strategis dalam pengembangan proyek perumahan terbaru
+                  dan pengelolaan kawasan hunian berkelanjutan.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Deskripsi keunggulan -->
+        <div class="w-full md:w-1/2 px-6 md:px-8 py-8">
+          <div class="flex justify-end md:justify-end">
+            <h2 class="text-blue-800 text-right font-bold text-3xl md:text-6xl bg-gray-50 px-6 py-4 mb-6 inline-block">KEUNGGULAN KAMI</h2>
+          </div>
+          <div class="mx-2 md:mx-6">  
+            <ul class="text-gray-50 list-decimal mx-4 md:mx-10 space-y-4">
+              <li class="font-semibold text-base md:text-xl">Kredit Murah dan Proses Mudah
+                <span class="block font-normal text-sm md:text-base text-gray-50">Bekerja sama dengan lembaga pembiayaan terpercaya untuk mempermudah calon pembeli
+                  memiliki rumah impian tanpa ribet.</span>
+              </li>
+              <li class="font-semibold text-base md:text-xl">Struktur Bangunan Bergaransi
+                <span class="block font-normal text-sm md:text-base text-gray-50">Mengutamakan kualitas konstruksi dengan standar keamanan tinggi dan garansi
+                  struktur untuk ketenangan penghuni. </span>
+              </li>
+              <li class="font-semibold text-base md:text-xl">Lingkungan Nyaman dan Asri
+                <span class="block font-normal text-sm md:text-base text-gray-50">Setiap kawasan dirancang dengan tata ruang yang rapi,
+                  akses mudah, serta area hijau yang menambah kenyamanan hidup.</span>
+              </li>
+              <li class="font-semibold text-base md:text-xl">Tim Profesional dan Berpengalaman
+                <span class="block font-normal text-sm md:text-base text-gray-50">Didukung tenaga ahli di bidang properti, konstruksi, dan manajemen
+                  proyek yang berkomitmen pada kualitas terbaik.</span>
+              </li>
+              <li class="font-semibold text-base md:text-xl">Pelayanan Ramah dan Transparan
+                <span class="block font-normal text-sm md:text-base text-gray-50">Proses pembelian rumah dilakukan dengan sistem yang jujur, jelas, dan
+                  cepat agar konsumen merasa aman dan percaya.</span>
+              </li>
+              <li class="font-semibold text-base md:text-xl">Desain modern dan Harga Terjangkau
+                <span class="block font-normal text-sm md:text-base text-gray-50">Menggabungkan nilai estetika dan fungsi dengan harga yang tetap ramah
+                  di kantong masyarakat menengah ke bawah.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimoni perumahan -->
+    <section id="testimoni">
+      <h3 class="text-center font-bold text-5xl xl:text-7xl flex justify-center mt-20 text-gray-50 bg-blue-800 px-8 py-5">TESTIMONI KAMI</h3>
+      <div>
+        <div class="flex justify-center items-center h-[200] xl:min-h-screen bg-gray-50 mx-5 mt-5 mb-5 xl:mx-14 lg:mt-5 lg:mb-5">
+          <div class="grid grid-rows-3 grid-cols-2 xl:grid-rows-2 xl:grid-cols-3 text-black text-3xl gap-3 xl:gap-10">
+            <div class="rounded-lg border-blue-300 border-4 lg:border-7 overflow-hidden">
+              <img src="src/img/Screenshot 2025-10-13 114035.png" alt="" class="w-full h-full block object-cover">
+            </div>
+            <div class="rounded-lg border-blue-300 border-4 lg:border-7 overflow-hidden">
+              <img src="src/img/Screenshot 2025-10-13 114227.png" alt="" class="w-full h-full block object-cover">
+            </div>
+            <div class="rounded-lg border-blue-300 border-4 lg:border-7 overflow-hidden">
+              <img src="src/img/Screenshot 2025-10-13 121605.png" alt="" class="w-full h-full block object-cover">
+            </div>
+            <div class="rounded-lg border-blue-300 border-4 lg:border-7 overflow-hidden">
+              <img src="src/img/Screenshot 2025-10-13 144013.png" alt="" class="w-full h-full block object-cover">
+            </div>
+            <div class="rounded-lg border-blue-300 border-4 lg:border-7 overflow-hidden">
+              <img src="src/img/Screenshot 2025-10-13 144043.png" alt="" class="w-full h-full block object-cover">
+            </div>
+            <div class="rounded-lg border-blue-300 border-4 lg:border-7 overflow-hidden">
+              <img src="src/img/Screenshot 2025-10-13 152630.png" alt="" class="w-full h-full block object-cover">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer id="contactUs" class="relative mx-auto">
+      <div>
+        <img src="src/img/Screenshot 2025-10-13 121605.png" alt="perumahan MGE" class="w-full h-96 md:h-1/2 lg:h-[800px] object-cover block">
+      </div>  
+      <div class="absolute inset-0 bg-black opacity-60"></div>
+      <div class="absolute inset-0 flex flex-col items-center justify-center px-4 text-center">
+        <h1 class="flex items-center text-gray-50 text-2xl sm:text-3xl md:text-5xl font-bold mt-6">HUBUNGI KAMI</h1>
+        <div class="flex flex-col items-center mt-4 space-y-4">
+          <!-- alamat -->
+          <a href="https://maps.app.goo.gl/TdH7kWsX5fZNgLKj6" target="_blank" class="text-sm sm:text-base md:text-lg text-gray-50 hover:text-blue-200">
+            <p>Jakarta Garden City, Rukan Avenue No. 8-161 Lt. 1,</p>
+            <p>Kel. Cakung Timur, Kec. Cakung, Kota Adm. Jakarta Timur,</p>
+            <p>Provinsi Daerah Khusus Jakarta, 13910 </p>
+          </a>
+          <!-- WhatsApp -->
+          <a href="https://wa.me/6282154888181" target="_blank">
+            <button class="bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 md:px-10 rounded-lg shadow-lg flex items-center space-x-2 transition duration-300">
+              <i class="fab fa-whatsapp text-lg"></i>
+              <span class="text-sm md:text-base">Hubungi Kami via Whatsapp</span>
+            </button>
+          </a>
+          <!-- Email -->
+          <a href="mailto:ptmustikagrahaestetika@email.com">
+            <button class="bg-red-600 hover:bg-red-700 text-white font-medium py-3 px-6 md:px-10 rounded-lg shadow-lg flex items-center space-x-2 transition duration-300">
+              <i class="fas fa-envelope text-lg"></i>
+              <span class="text-sm md:text-base">Kirim Email Kepada Kami</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional: Tailwind CDN script (tidak wajib karena kamu pakai v2 link di head) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Minimal JS untuk toggle mobile nav -->
+    <script>
+      (function() {
+        const btn = document.getElementById('nav-toggle');
+        const mobile = document.getElementById('nav-mobile');
+        const icon = document.getElementById('nav-toggle-icon');
+
+        btn && btn.addEventListener('click', () => {
+          if (!mobile) return;
+          const isHidden = mobile.classList.contains('hidden');
+          if (isHidden) {
+            mobile.classList.remove('hidden');
+            icon.classList.remove('fa-bars');
+            icon.classList.add('fa-times');
+          } else {
+            mobile.classList.add('hidden');
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+          }
+        });
+
+        // Close mobile menu when clicking a link (nice UX)
+        document.querySelectorAll('#nav-mobile a').forEach(a => {
+          a.addEventListener('click', () => {
+            mobile && mobile.classList.add('hidden');
+            icon && icon.classList.remove('fa-times');
+            icon && icon.classList.add('fa-bars');
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
